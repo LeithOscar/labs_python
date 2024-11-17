@@ -27,150 +27,203 @@ Este es un proyecto simple en Python que permite al usuario realizar operaciones
 # Una variable es un espacio en la memoria donde podemos almacenar datos para usarlos en nuestro programa.
 # Las variables tienen un nombre y pueden contener diferentes tipos de datos, como números, texto, y más.
 
-# Ejemplo de variables:
-nombre = "Juan"      # Variable que guarda un texto
-edad = 6             # Variable que guarda un número
-
-# Tipos de Variables Comunes:
-# - Texto (str): cadenas de texto, como "Hola"
-# - Número Entero (int): números sin decimales, como 10
-# - Número Decimal (float): números con decimales, como 3.5
+# wiki.py
 
 
-# 2. Función print()
-# La función print() se usa para mostrar información en la pantalla.
-# Puedes usarla para mostrar textos, números, o el valor de una variable.
+# --- Mini Wiki de Programación Básica en Python ---
 
-# Ejemplo:
-print("Hola, mundo")    # Muestra: Hola, mundo
-edad = 6
-print(edad)             # Muestra: 6
+# 1. Variables
+# Una variable es un espacio en la memoria donde podemos almacenar datos para usarlos en nuestro programa.
+# Las variables tienen un nombre y pueden contener diferentes tipos de datos, como números, texto, y más.
 
+# wiki.py
 
-# 3. Función input()
-# La función input() permite que el usuario ingrese datos desde el teclado.
-# Lo que el usuario escribe se guarda como texto (tipo str) y puede ser asignado a una variable.
+# --- Mini Wiki de Programación Básica en Python ---
 
-# Ejemplo:
-# nombre = input("¿Cuál es tu nombre? ")
-# print("Hola, " + nombre + "!")
+# 1. Variables
 
+# --- Mini Wiki de Programación Básica en Python ---
 
-# 4. Operadores Matemáticos Básicos
-# Los operadores matemáticos se utilizan para hacer operaciones con números.
-# Algunos de los operadores más comunes son:
-# - Suma (+): suma dos números
-# - Resta (-): resta dos números
-# - Multiplicación (*): multiplica dos números
-# - División (/): divide dos números
-# - Módulo (%): obtiene el resto de la división entre dos números (útil para saber si un número es par o impar)
+# 1. Variables
+# Una variable es un espacio en la memoria donde podemos almacenar datos para usarlos en nuestro programa.
+# Las variables tienen un nombre y pueden contener diferentes tipos de datos, como números, texto, y más.
 
-# Ejemplo:
+# wiki.py
+
+# --- Mini Wiki de Programación Básica en Python ---
+
+# 1. Variables
+
+# --- Mini Wiki de Programación Básica en Python ---
+
+# 1. Variables
+# Una variable es un espacio en la memoria donde podemos almacenar datos para usarlos en nuestro programa.
+# Las variables tienen un nombre y pueden contener diferentes tipos de datos, como números, texto, y más.
+
+# wiki.py
+
+# --- Mini Wiki de Programación Básica en Python ---
+
+# 1. Variables
+
+# --- Mini Wiki de Programación Básica en Python ---
+
+# 1. Variables
+# Una variable es un espacio en la memoria donde podemos almacenar datos para usarlos en nuestro programa.
+# Las variables tienen un nombre y pueden contener diferentes tipos de datos, como números, texto, y más.
+
+# wiki.py
+
+# --- Mini Wiki de Programación Básica en Python ---
+
+# 1. Variables
+# Mini Wiki de Programación Básica en Python
+
+Este repositorio contiene ejemplos y explicaciones sobre los conceptos más básicos de programación en Python. Los ejemplos están pensados para principiantes, especialmente para aquellos que están comenzando a aprender programación. Aquí se cubren conceptos fundamentales como las variables, funciones, operadores matemáticos, condicionales, bucles, listas y más.
+
+---
+
+## Introducción
+
+Python es un lenguaje de programación popular y fácil de aprender. En este archivo encontrarás ejemplos básicos que te ayudarán a entender cómo funcionan las variables, las funciones, las condiciones, los bucles y otros conceptos clave. Al final del archivo, podrás encontrar un resumen de estos conceptos y algunos recursos adicionales para seguir aprendiendo.
+
+---
+
+## Ejemplos de Programación
+
+### 1. **Variables**
+
+Las **variables** permiten almacenar valores para usarlos más tarde en el programa. Pueden contener diferentes tipos de datos, como números, texto, etc.
+
+#### Ejemplo:
+```python
+nombre = "Juan"  # Almacena un texto
+edad = 6         # Almacena un número entero
+### 2. **Función `input()`**
+
+La función **`input()`** permite pedir información al usuario, y el dato que se ingresa se guarda como texto.
+
+#### Ejemplo:
+```python
+nombre = input("¿Cuál es tu nombre? ")
+print("Hola, " + nombre + "!")
+
+### 3. **Operadores Matemáticos Básicos**
+
+Los **operadores matemáticos** se utilizan para realizar operaciones con números. Los más comunes son:
+
+- **Suma (`+`)**
+- **Resta (`-`)**
+- **Multiplicación (`*`)**
+- **División (`/`)**
+
+#### Ejemplo:
+```python
 a = 3
 b = 2
-print(a + b)   # Muestra: 5
-print(a % 2)   # Muestra: 1, porque el resto de dividir 3 entre 2 es 1
+print(a + b)  # Muestra: 5
+### 4. **Condicionales `if`**### 5. **Funciones**
+
+Las **funciones** permiten organizar el código en bloques reutilizables. Se definen con la palabra clave `def` seguida del nombre de la función.
+
+#### Ejemplo:
+```python
+def saludar(nombre):
+    print("Hola, " + nombre + "!")
 
 
-# 5. Condiciones if
-# Las condiciones se utilizan para tomar decisiones en el código.
-# La estructura básica es usar if para verificar si una condición es verdadera, y si lo es, ejecutar un bloque de código.
-# También puedes usar else para ejecutar otro bloque si la condición es falsa.
+Las **condiciones** permiten tomar decisiones en el programa. Se usan para ejecutar una parte del código si se cumple una condición, y otra parte si no se cumple.
 
-# Ejemplo:
+#### Ejemplo:
+```python
 edad = 6
 if edad >= 18:
     print("Eres mayor de edad")
 else:
     print("Eres menor de edad")
 
+### 6. **Bucle `for`**
 
-# 6. Funciones
-# Una función es un bloque de código que se puede reutilizar.
-# Las funciones permiten organizar el código en tareas específicas y llamarlas cuando sean necesarias.
-# Para definir una función, se usa la palabra clave def seguida del nombre de la función y los parámetros (si tiene).
+El **bucle `for`** se usa para repetir un bloque de código un número específico de veces. Se puede usar con un rango de números o con una lista.
 
-# Ejemplo:
-def saludar(nombre):
-    print("Hola, " + nombre + "!")
+#### Ejemplo:
+```python
+for i in range(1, 4):  # Repite 3 veces
+    print(i)             # Muestra: 1, 2, 3
 
-# Para llamar a la función:
-saludar("Ana")   # Muestra: Hola, Ana!
+### 7. **Listas**
 
+Las **listas** permiten almacenar múltiples elementos en una sola variable. Cada elemento tiene un índice que comienza en 0.
 
-# 7. Bucle for
-# Un bucle for se usa para repetir un bloque de código un número específico de veces.
-# En Python, for se suele usar para recorrer una secuencia de números o una lista.
-
-# Ejemplo:
-for i in range(1, 4):
-    print(i)
-
-
-# 8. Listas
-# Las listas son estructuras de datos que nos permiten almacenar varios valores en una sola variable.
-# Cada valor en una lista tiene un índice que empieza desde 0 (el primer elemento está en la posición 0, el segundo en 1, etc.)
-
-# Ejemplo:
+#### Ejemplo:
+```python
 frutas = ["manzana", "banana", "cereza"]
-print(frutas[0])   # Muestra: manzana
+print(frutas[0])  # Muestra: manzana
+### 8. **Comentarios**
 
+Los **comentarios** son textos dentro del código que explican lo que hace el código. Los comentarios no son ejecutados.
 
-# 9. Comentarios
-# Los comentarios son textos en el código que no se ejecutan.
-# Se usan para explicar lo que hace el código. En Python, los comentarios se escriben usando el símbolo #.
-
-# Ejemplo:
+#### Ejemplo:
+```python
 # Esto es un comentario
 nombre = "Ana"  # Asignamos "Ana" a la variable nombre
 
+### 9. **Comparadores**
 
-# 10. Comparadores
-# Los comparadores se usan para comparar valores en las condiciones.
-# Algunos de los más comunes son:
-# - == : igual a
-# - != : diferente de
-# - >  : mayor que
-# - <  : menor que
-# - >= : mayor o igual que
-# - <= : menor o igual que
+Los **comparadores** se usan para comparar dos valores. Algunos de los más comunes son:
 
-# Ejemplo:
+- **`==`** : igual a
+- **`!=`** : diferente de
+- **`>`**  : mayor que
+- **`<`**  : menor que
+- **`>=`** : mayor o igual que
+- **`<=`** : menor o igual que
+
+#### Ejemplo:
+```python
 a = 5
 b = 3
-print(a > b)    # Muestra: True
-print(a == b)   # Muestra: False
+print(a > b)  # Muestra: True
+print(a == b)  # Muestra: False
 
+### 10. **Operador de Módulo `%`**
 
-# 11. Operador de Módulo %
-# El operador módulo % se usa para obtener el resto de una división.
-# Este operador es útil para saber si un número es par o impar.
+El **operador de módulo** `%` se utiliza para obtener el resto de una división.
 
-# Ejemplo:
+#### Ejemplo:
+```python
 numero = 8
 if numero % 2 == 0:
     print("Es par")
 else:
     print("Es impar")
 
+### 11. **Concatenación de Cadenas de Texto**
 
-# 12. Concatenación de Cadenas de Texto
-# La concatenación se refiere a unir dos o más cadenas de texto usando el operador +.
-# Esto es útil para combinar textos con variables de tipo str.
+La **concatenación** permite unir dos o más cadenas de texto.
 
-# Ejemplo:
+#### Ejemplo:
+```python
 nombre = "Ana"
-print("Hola, " + nombre + "!")   # Muestra: Hola, Ana!
+print("Hola, " + nombre + "!")  # Muestra: Hola, Ana!
 
+### 12. **Convertir Tipos de Datos**
 
-# 13. Convertir Tipos de Datos
-# A veces es necesario convertir datos de un tipo a otro.
-# Por ejemplo, cuando usamos input() para obtener un número del usuario, el dato se guarda como texto (tipo str).
-# Para hacer operaciones matemáticas, hay que convertirlo a entero (int) o decimal (float).
+A veces es necesario convertir un tipo de dato a otro. Por ejemplo, convertir texto a un número entero para poder realizar operaciones matemáticas.
 
-# Ejemplo:
-# numero = input("Escribe un número: ")   # Esto es texto
-# numero = int(numero)                    # Ahora es un número entero
-# print(numero + 5)
+#### Ejemplo:
+```python
+numero = input("Escribe un número: ")  # Esto es texto
+numero = int(numero)                   # Ahora es un número entero
+print(numero + 5)                       # Muestra el resultado de la operación
 
-# --- Fin de la Mini Wiki ---
+### 13. **Uso de `while` para Repetir Código**
+
+El bucle **`while`** se utiliza para ejecutar un bloque de código mientras se cumpla una condición. Es útil cuando no sabemos cuántas veces necesitamos repetir una acción.
+
+#### Ejemplo:
+```python
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1  # Aumentamos el contador en 1
