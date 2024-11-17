@@ -1,4 +1,4 @@
-# soluciones.py
+# soluciones_2.py
 
 # Solución del Ejercicio 1
 def suma(a, b):
