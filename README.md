@@ -13,12 +13,12 @@ Está pensado para niños y adultos que quieran iniciarse.
 - Instala git https://git-scm.com/ en tu SO.
 - Clona este repositorio git clone 
 - Añade las extensiones Python en el VsCode.
-- 
+
 
 ## Instrucciones
 
 1. Clona o descarga el repositorio.
-2. Abre el archivo `...py` y ejecútalo. (F5)
+2. Abre el archivo `ejercicios1.py` y ejecútalo. (F5)
 3. Selecciona la operación que deseas realizar.
 
 
