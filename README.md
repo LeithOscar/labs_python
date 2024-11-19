@@ -1,13 +1,19 @@
-# Mi Proyecto Python
+# Mis ejercicios en Python
 
-Este es un proyecto simple en Python que permite al usuario realizar operaciones matemáticas como suma, resta, multiplicación y división.
+Este es un proyecto simple en Python que permite al usuario realizar operaciones matemáticas como suma, resta, multiplicación y división y entre ejercicios básicos para aprender y introducirse en la programación.
+
+Está pensado para niños y adultos que quieran iniciarse.
 
 ## Requisitos
 
 - Python 3.x
 - Instalar python desde la web.
-- Instalar un IDE como visual studio code
+- Instalar un IDE como visual studio code.
+- Crea una cuenta en github.
+- Instala git https://git-scm.com/ en tu SO.
+- Clona este repositorio git clone 
 - Añade las extensiones Python en el VsCode.
+- 
 
 ## Instrucciones
 
